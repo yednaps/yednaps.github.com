@@ -1,0 +1,23 @@
+.twitter-share-button {
+  vertical-align: middle;
+}
+
+.mainBody {
+  height: 180px;
+  padding: 20px;
+}
+
+.deepThought {
+  vertical-align: middle;
+}
+
+.buttonInp {
+  padding: 3px 12px 3px 12px;
+}
+
+.buttonRow {
+  padding: 0px 20px;
+  /*vertical-align: middle;
+  width: 50%;
+  margin: 0 auto;*/
+}

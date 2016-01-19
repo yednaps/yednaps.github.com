@@ -1,0 +1,16 @@
+
+.navbar-inverse {
+  background-color: #75706B;
+  border-style: none;
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+
+.page-header {
+    background-color: #A38F84;
+    color: #e5dfdc;
+    text-align:center;
+    padding:20px;
+    font-family: 'Cutive';
+    font-weight: 100;
+}

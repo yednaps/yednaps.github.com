@@ -1,0 +1,59 @@
+body {
+  background-color: #41a85f;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 48px;
+}
+
+p {
+  color: white;
+  font-family: 'Racing Sans One', cursive;
+  font-size: 15px;
+}
+
+#slider {
+  margin: 0 auto;
+}
+
+.button-group {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.rs-control .rs-tooltip {
+  font-size: 20px;
+  color: white;
+  font-family: 'Racing Sans One',sans;
+  text-shadow: 2px 2px #000000;
+}
+
+.rs-control .rs-tooltip div {
+  color: red;
+  text-shadow: none;
+  background-color: rgba(255, 255, 255,0.65);
+  padding: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: white;
+}
+
+.rs-control .rs-range-color {
+  background-color: #e25041;
+}
+
+.rs-control .rs-path-color {
+  background-color: #d1d5d8;
+}
+
+.rs-control .rs-handle {
+  background-color: #838383;
+}
+
+.rs-control .rs-bg-color {
+  background-color: #41a85f;
+}

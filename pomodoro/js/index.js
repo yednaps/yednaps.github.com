@@ -14,7 +14,7 @@ $("#slider").roundSlider({
 
 function changeTooltip(e) {
   var val = e.value;
-  if (val == 0) return "<div>FIN</div>"
+  if (val == 0) return "<div class='fade-in'>FIN</div>"
   else {
     var m = Math.floor(val / 60);
     var s = Math.floor(val % 60);
@@ -78,12 +78,12 @@ function update() {
   $("#slider").roundSlider("option", "value", remt);
   if (remt <= 0) {
     x.stop();
-    $('p').show();
+    $('p').fadeIn();
   }
 }
 
 function start() {
-  $('p').hide();
+  $('p').fadeOut();
   clocktimer = setInterval("update()", 250);
   x.start();
 }

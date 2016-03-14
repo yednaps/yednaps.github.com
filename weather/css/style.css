@@ -1,0 +1,137 @@
+body {
+  background-color: #f37934;
+}
+
+.wxText {
+  color: white;
+  font-family: Raleway, sans;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+#outerborder {
+  border-style: solid;
+  width: 460px;
+  height: 543px;
+  margin: 50px auto;
+  border-width: 20px;
+  border-color: white;
+  border-radius: 30px;
+}
+
+#innerborder {
+  width: 300px;
+  height: 350px;
+  margin: 20px auto;
+  background-color: #fba026;
+  border-radius: 10px;
+  border: none;
+  border-color: white;
+  border-width: 5px;
+  box-shadow: 1px 1px #9f3f0a, 2px 2px #9f3f0a, 3px 3px #9f3f0a, 4px 4px #9f3f0a, 5px 5px #9f3f0a, 6px 6px #9f3f0a, 7px 7px #9f3f0a, 8px 8px #9f3f0a, 9px 9px #9f3f0a, 10px 10px #9f3f0a, 11px 11px #9f3f0a, 12px 12px #9f3f0a, 13px 13px #9f3f0a, 14px 14px #9f3f0a, 15px 15px #9f3f0a, 16px 16px #9f3f0a, 17px 17px #9f3f0a, 18px 18px #9f3f0a, 19px 19px #9f3f0a, 20px 20px #9f3f0a, 21px 21px #9f3f0a, 22px 22px #9f3f0a, 23px 23px #9f3f0a, 24px 24px #9f3f0a, 25px 25px #9f3f0a, 26px 26px #9f3f0a, 27px 27px #9f3f0a, 28px 28px #9f3f0a, 29px 29px #9f3f0a, 30px 30px #9f3f0a, 31px 31px #9f3f0a, 32px 32px #9f3f0a, 33px 33px #9f3f0a, 34px 34px #9f3f0a, 35px 35px #9f3f0a, 36px 36px #9f3f0a, 37px 37px #9f3f0a, 38px 38px #9f3f0a, 39px 39px #9f3f0a, 40px 40px #9f3f0a, 41px 41px #9f3f0a, 42px 42px #9f3f0a, 43px 43px #9f3f0a, 44px 44px #9f3f0a, 45px 45px #9f3f0a, 46px 46px #9f3f0a, 47px 47px #9f3f0a, 48px 48px #9f3f0a, 49px 49px #9f3f0a, 50px 50px #9f3f0a, 51px 51px #9f3f0a, 52px 52px #9f3f0a, 53px 53px #9f3f0a, 54px 54px #9f3f0a, 55px 55px #9f3f0a, 56px 56px #9f3f0a, 57px 57px #9f3f0a, 58px 58px #9f3f0a, 59px 59px #9f3f0a, 60px 60px #9f3f0a;
+}
+
+#label {}
+
+#temperature {
+  font-weight: 100;
+  font-size: 96px;
+  margin: -20px 0px -20px 0px;
+}
+
+#description {
+  font-weight: 100;
+  font-size: 24px;
+}
+
+#location {
+  font-weight: 100;
+  font-size: 24px;
+}
+
+#picture {
+  font-size: 96px;
+  margin: 10px 0px -20px 0px;
+}
+
+.onoffswitch {
+  width: 50%;
+  /* Set the margin-left and margin-right automatically set */
+  margin: 0px auto;
+  position: relative;
+  width: 55px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+  display: none;
+}
+
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  border-radius: 29px;
+}
+
+.onoffswitch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+  content: "F";
+  padding-left: 10px;
+  background-color: #fba026;
+  color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+  content: "C";
+  padding-right: 10px;
+  background-color: #fba026;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.onoffswitch-switch {
+  display: block;
+  width: 18px;
+  margin: 6px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 21px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+}

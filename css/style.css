@@ -14,3 +14,11 @@
     font-family: 'Cutive';
     font-weight: 100;
 }
+
+.imgthumb {
+    height: 300px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #A38F84;
+    border-radius: 30px;
+}
